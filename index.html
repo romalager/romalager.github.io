@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Hyperlinks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            font-weight: 600;        
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            padding: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Click on the images below:</h1>
+
+    <a href="https://www.example.com/link1">
+        <img src="image1.jpg" alt="Image 1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+    </a>
+
+    <a href="https://www.example.com/link2">
+        <img src="image2.jpg" alt="Image 2">
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</p>
+    </a>
+
+    <a href="https://www.example.com/link3">
+        <img src="image3.jpg" alt="Image 3">
+        <p>Pellentesque in ipsum id orci porta dapibus.</p>
+    </a>
+</div>
+
+</body>
+</html>
